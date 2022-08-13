@@ -1,5 +1,5 @@
 pipeline {
-    agent { 'cnode' }
+    agent { label 'cnode' }
     stage{
        stage ('build') {
            steps {

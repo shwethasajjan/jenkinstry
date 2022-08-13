@@ -1,6 +1,6 @@
 pipeline {
     agent { label 'cnode' }
-    stage{
+    stages {
        stage ('build') {
            steps {
            git branch: 'main', url: 'https://github.com/shwethasajjan/cfile.git'

@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     environment {
-        BRANCH = 'main'
+        BRANCH = 'master'
         GIT_REPO = 'https://github.com/shwethasajjan/jenkinstry.git'
     }
 
